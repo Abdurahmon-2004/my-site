@@ -76,6 +76,10 @@ section img {
   .bog {
     display: none;
   }
+  h2 a {
+    text-decoration: none;
+    color: #413f3f;
+  }
   .item a {
     margin-left: 70px;
   }
