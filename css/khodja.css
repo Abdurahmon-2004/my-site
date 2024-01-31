@@ -2,9 +2,21 @@ body {
   box-sizing: border-box;
   margin: 0 auto;
   width: 1350px;
+
   font-family: sans-serif;
 }
-
+.item-1 a {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  font-family: "Courier New", Courier, monospace;
+}
+@import url(https://fonts.googleapis.com/css2?family=Cute+Font&display=swap);
+.joy {
+  margin-top: 24px;
+}
+.kitob {
+  border: 1px solid #adacac;
+}
 header nav {
   background-color: #000;
   border-radius: 12px;
@@ -23,7 +35,7 @@ header nav ul {
   color: #fff;
 }
 .item {
-  margin-left: -100px;
+  margin-left: -50px;
 }
 a img {
   margin-left: -100px;
@@ -45,8 +57,6 @@ header nav ul li a {
 }
 section img {
   margin: 0 auto;
-  /* border: 1px solid #000; */
-  /* margin-left: 30px; */
 }
 @media screen and (max-width: 760px) {
   body {
@@ -57,10 +67,9 @@ section img {
   }
   .item-1 a {
     font-size: 10px;
-    margin-left: -30px;
+    margin-left: -50px;
   }
   section img {
-    /* border: 1px solid #000; */
     width: 100%;
     border-radius: 12px;
   }
