@@ -2,17 +2,23 @@ body {
   box-sizing: border-box;
   margin: 0 auto;
   width: 1350px;
-
   font-family: sans-serif;
 }
 .item-1 img {
-  margin-left: 10px;
-  width: 70px;
-  height: 50px;
+  margin-left: -65px;
+  width: 50px;
+  border-radius: 20%;
+  height: 100%;
+  margin-bottom: 3px;
 }
 @import url(https://fonts.googleapis.com/css2?family=Cute+Font&display=swap);
 .joy {
   margin-top: 24px;
+}
+li a {
+  /* border: 1px solid #fff; */
+  /* font-size: 50px; */
+  font-weight: 600;
 }
 .kitob {
   border: 1px solid #adacac;
@@ -31,15 +37,11 @@ header nav ul {
   font-size: x-large;
   color: rgb(241, 145, 36);
 }
-.item-1 span {
-  color: #fff;
-}
+
 .item {
   margin-left: -80px;
 }
-a img {
-  margin-left: -100px;
-}
+
 header nav ul li a:focus {
   color: red;
 }
@@ -66,7 +68,7 @@ section img {
     margin: 0 auto;
   }
   .item-1 a {
-    font-size: 10px;
+    font-size: 20px;
     margin-left: -50px;
   }
   section img {
